@@ -58,7 +58,7 @@ export const AssigneesMultiColumnComboBox = () => {
 
   return (
     <form className="k-form k-my-8">
-      <label className="k-label k-mb-3">Task Assignee</label>
+      <label className="k-label k-mb-3">MultiColumn Task Assignee</label>
       <MultiColumnComboBox
         data={assignees}
         columns={columns}
